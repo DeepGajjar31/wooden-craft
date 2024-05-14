@@ -1,0 +1,12 @@
+.common-section {
+  background: linear-gradient( rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)), url('../assets/images/Common-bg.png') no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  padding: 60px 0px;
+}
+
+.common-section h1 {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}

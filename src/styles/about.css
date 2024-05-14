@@ -1,0 +1,16 @@
+.about-page .about-p {
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  margin: 0px 50px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.about-p .lst{
+  list-style-type: disc;
+  margin-left: 20px;
+  color: black;
+}

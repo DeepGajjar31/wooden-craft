@@ -1,0 +1,136 @@
+.user-profile {
+  max-width: 960px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.user-profile nav {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.user-profile nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+}
+
+.user-profile nav ul li {
+  margin-right: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.user-profile nav ul li a {
+  color: var(--primary-color);
+  /* background-color: white; */
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.user-profile nav ul li a:hover {
+  background-color: #e0e0e0;
+}
+
+.user-icon {
+  font-size: 50px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.account-details h4,
+.my-orders h4,
+.settings h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.account-details p,
+.my-orders p,
+.settings p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Update Address */
+.update-address form label {
+  font: 400;
+  font-size: 18px;
+}
+
+.update-address form label input {
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+  padding: 5px;
+  margin: 5px;
+}
+
+.update-address form button {
+  border-radius: 5px;
+  /* border: 1px solid; */
+  border: none;
+  margin: 10px;
+  font: 400;
+  font-size: 24px;
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* My Orders */
+.my-orders ul li {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.my-orders ul li p {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.my-orders ul li ul li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.my-orders ul li ul li img {
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .user-profile {
+    padding: 10px;
+  }
+
+  .user-profile nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-profile nav ul li {
+    margin-bottom: 10px;
+  }
+
+  .user-profile nav ul li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+

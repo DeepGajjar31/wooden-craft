@@ -1,0 +1,14 @@
+.os-maincon {
+  margin: 0;
+  padding: 0;
+}
+
+.os-maincon .right-icon {
+  font-size: 200px;
+  color: #4CAF50;
+}
+
+.os-maincon div p {
+  font-size: 17px;
+}
+
